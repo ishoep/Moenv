@@ -1,0 +1,836 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Lexend", sans-serif;
+    background: linear-gradient(76.8deg, rgb(41, 18, 55) 3.6%, rgb(25, 21, 85) 90.4%);
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: background 0.2s ease; 
+}
+.centered {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    margin-top: 30px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.Logo {
+    color: rgb(168, 168, 168);
+    font-weight: 700;
+    font-size: 35px;
+}
+.nav-panel {
+    margin-left: 160px;
+    border-radius: 20px;
+    width: 550px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(64, 64, 64, 0.1);
+}
+.nav-panel a {
+    color: rgb(168, 168, 168);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.auth {
+    width: 220px;
+    height: 55px;
+    background-color: violet;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-login {
+    width: 100px;
+    height: 45px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-signup {
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+.home {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-main {
+    display: flex;
+    flex-direction: column;
+}
+.home-main span {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+.home-name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home-name img {
+    width: 70px;
+    margin-top: 20px;
+}
+.home-new {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+}
+.newicn {
+    width: 50px;
+    height: 26px;
+    margin-left: 7px;
+    background-color: rgb(181, 22, 181);
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.home-new span {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.yddj {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.home-description {
+    width: 600px;
+}
+.hmdcr {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hmdcr span {
+    color: rgb(208, 208, 208);
+    font-size: 20px;
+}
+.home-btn {
+    width: 260px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 40px;
+    background-color: rgb(142, 21, 142);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgb(36, 36, 36);
+}
+.home-description {
+    margin-top: 10px;
+}
+.hmstct {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    display: flex;
+    margin-top: 50px;
+    gap: 60px;
+}
+.hmrating {
+    display: flex;
+    flex-direction: column;
+}
+.stathome {
+    color: white;
+    font-size: 60px;
+}
+.statdhome {
+    color: rgb(208, 208, 208);
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.features {
+    margin-top: 370px;
+    height: 900px;
+}
+.ftrsh1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(222, 222, 222);
+    margin-top: 120px;
+}
+.featureswlcm {
+    display: flex;
+    justify-content: space-between;
+}
+.ftrsdsc {
+    color: rgb(222, 222, 222);
+    width: 650px;
+    margin-top: 10px;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.features-blocks {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.feature {
+    padding: 40px;
+    border-radius: 15px;
+    width: 400px;
+    height: 210px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feature img {
+    width: 30px;
+}
+.ftrname {
+    font-size: 26px;
+    margin-top: 10px;
+}
+.ftrsubname {
+    width: 200px;
+}
+.features-btn {
+    width: 260px;
+    height: 55px;
+    border-radius: 60px;
+    border: none;
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(81, 30, 79);
+    box-shadow: 0 0 10px rgb(38, 38, 38);
+    content: '\00bb';
+    cursor: pointer;
+    transition: 0.5s;
+}
+.features-btn:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 1px solid white;
+    color: white;
+    padding-bottom: 5px;
+}
+.featureswlcmgg {
+    display: flex;
+    flex-direction: column;
+}
+.back-to-home {
+    width: 49px;
+    height: 49px;
+    background-color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+.back-to-home img {
+    width: 20px;
+}
+.back-to-features {
+    width: 49px;
+    height: 49px;
+    background-color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+.back-to-features img {
+    width: 20px;
+}
+.plans {
+    width: 1690px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.plan {
+    width: 490px;
+    height: 305px;
+    background-color: rgb(18, 18, 18);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.planname {
+    font-size: 35px;
+}
+.plansubname {
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+    width: 300px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.plan img {
+    width: 20px;
+}
+.planf {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.planf span {
+    font-size: 20px;
+}
+.planbtn {
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pricing-btn {
+    width: 260px;
+    height: 55px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid rgb(81, 30, 79);
+    box-shadow: 0 0 10px rgb(38, 38, 38);
+    content: '\00bb';
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 240px;
+}
+.pricing-btn:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 1px solid white;
+    color: white;
+    padding-bottom: 5px;
+}
+.contact-div {
+    margin-top: 30px;
+    width: 900px;
+    height: 415px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    margin-bottom: 160px;
+}
+.contact-div span {
+    font-size: 24px;
+}
+.name-email {
+    display: flex;
+    gap: 30px;
+}
+.name-email input {
+    width: 410px;
+    height: 35px;
+    border-radius: 16px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.contact-ne {
+    display: flex;
+    flex-direction: column;
+}
+.contact-message {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-message textarea {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 855px;
+    height: 200px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 855px;
+    max-height: 200px;
+}
+.contact-btn {
+    margin-top: 20px;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .plans {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .plan {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1024px) {    
+    .navbar {
+        gap: 20px;
+    }                                             
+    .nav-panel {
+        margin-left: 0;
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-description {
+        margin-top: 30px;
+    }
+    .features {
+        margin-top: 50px;
+    }
+    .back-to-home {
+        display: none;
+    }
+    .back-to-features {
+        display: none;
+    }
+    .features-blocks {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+    .feature {
+        width: 300px;
+    }
+    .pricing {
+        margin-top: 200px;
+    }
+    .plans {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+    .plan {
+        width: 325px;
+    }
+    .pricing-btn {
+        margin-top: 390px;
+        margin-left: 25px;
+    }
+    .contact-div {
+        width: 695px;
+        height: 530px;
+    }
+    .contact-div textarea {
+        width: 660px;
+    }
+    .name-email {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    .Logo {
+        font-size: 25px;
+    }
+    .nav-panel {
+        display: none;
+    }
+    .yddj span {
+        font-size: 60px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .home {
+        margin-top: 30px;
+    }
+    .feature {
+        width: 265px;
+    }
+    .plan {
+        width: 285px;   
+    }
+    .contact-div {
+        width: 600px;
+    }
+    .contact-div textarea {
+        width: 570px;
+    }
+    .contact-btn {
+        font-size: 18px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        padding: 20px;
+    }
+    .home-description {
+        width: 300px;
+    }
+    .Logo {
+        font-size: 25px;
+    }
+    .nav-panel {
+        display: none;
+    }
+    .yddj span {
+        font-size: 40px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .home {
+        margin-top: 30px;
+    }
+    .feature {
+        width: 265px;
+    }
+    .plan {
+        width: 310px;   
+    }
+    .contact-div {
+        width: 600px;
+    }
+    .contact-div textarea {
+        width: 570px;
+    }
+    .contact-btn {
+        font-size: 18px;
+        height: 40px;
+    }
+    .yddj img {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .hmdcr {
+        width: 350px;
+        gap: 15px;
+    }
+    .hmrating {
+        margin-top: 0;
+    }
+    .ftrsh1 {
+        width: 350px;
+        font-size: 30px;
+    }
+    .ftrsdsc {
+        width: 370px;
+    }
+    .features-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature {
+        width: 290px;
+    }
+    .pricing {
+        margin-top: 800px;
+    }
+    .plans {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-btn {
+        display: none;
+    }
+    .contact {
+        margin-top: 0;
+    }
+    .pricing {
+        height: 1400px;
+    }
+    .features-btn {
+        display: none;
+    }
+    .ftrsh1 {
+        margin-top: 0;
+    }
+    .contact-div {
+        width: 330px;
+        padding: 20px;
+    }
+    .contact-div input {
+        width: 300px;
+    }
+    .contact-div textarea {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 375px) {
+    body {
+        padding: 10px;
+    }
+    .Logo {
+        font-size: 22px;
+    }
+    .home-description {
+        width: 100%;
+    }
+    .nav-panel {
+        display: none;
+    }
+    .yddj span {
+        font-size: 40px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .home {
+        margin-top: 30px;
+    }
+    .feature {
+        width: 265px;
+    }
+    .plan {
+        width: 270px;
+        height: 350px;   
+    }
+    .contact-div {
+        width: 600px;
+    }
+    .contact-div textarea {
+        width: 570px;
+    }
+    .contact-btn {
+        font-size: 18px;
+        height: 40px;
+    }
+    .yddj img {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .hmdcr {
+        width: 330px;
+        gap: 15px;
+    }
+    .hmrating {
+        margin-top: 0;
+    }
+    .ftrsh1 {
+        width: 330px;
+        font-size: 30px;
+    }
+    .ftrsdsc {
+        width: 330px;
+    }
+    .features-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature {
+        width: 290px;
+        padding: 20px;
+    }
+    .pricing {
+        margin-top: 800px;
+    }
+    .plans {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-btn {
+        display: none;
+    }
+    .contact {
+        margin-top: 0;
+    }
+    .pricing {
+        height: 1400px;
+    }
+    .features-btn {
+        display: none;
+    }
+    .ftrsh1 {
+        margin-top: 0;
+    }
+    .contact-div {
+        width: 290px;
+        padding: 20px;
+    }
+    .contact-div input {
+        width: 270px;
+    }
+    .contact-div textarea {
+        width: 255px;
+    }
+    .pricing {
+        margin-top: 550px;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        padding: 3px;
+    }
+    .Logo {
+        font-size: 22px;
+    }
+    .auth {
+        height: 40px;
+        width: 160px;
+        margin-right: 20px;
+    }
+    .nav-signup {
+        height: 40px;
+        width: 80px;
+    }
+    .home-description {
+        width: 100%;
+    }
+    .nav-panel {
+        display: none;
+    }
+    .yddj span {
+        font-size: 30px;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .home {
+        margin-top: 30px;
+    }
+    .feature {
+        width: 265px;
+    }
+    .plan {
+        padding: 15px;
+        width: 260px;
+        height: 350px;   
+    }
+    .plansubname {
+        font-size: 17px;
+        width: 265px;
+    }
+    .contact-btn {
+        font-size: 18px;
+        height: 40px;
+    }
+    .yddj img {
+        width: 30px;
+        margin-top: 5px;
+    }
+    .hmdcr {
+        width: 300px;
+        gap: 15px;
+    }
+    .statdhome {
+        margin-top: 0;
+    }
+    .stathome {
+        font-size: 40px;
+    }
+    .featureswlcmgg span {
+        font-size: 22px;
+        width: 300px;
+    }
+    .hmdcr span {
+        font-size: 15px;
+    }
+    .hmrating {
+        margin-top: 0;
+    }
+    .ftrsh1 {
+        width: 330px;
+        font-size: 30px;
+    }
+    .ftrsdsc {
+        width: 330px;
+    }
+    .features-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature {
+        width: 255px;
+        height: 250px;
+        padding: 20px;
+    }
+    .ftrsubname {
+        font-size: 16px;
+    }
+    .pricing {
+        margin-top: 800px;
+    }
+    .plans {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-btn {
+        display: none;
+    }
+    .ftrsdsc {
+        margin-top: 10px;
+    }
+    .contact {
+        margin-top: 0;
+    }
+    .pricing {
+        height: 1400px;
+    }
+    .features-btn {
+        display: none;
+    }
+    .ftrsh1 {
+        margin-top: 0;
+    }
+    .contact-div {
+        width: 250px;
+        padding: 20px;
+    }
+    .contact-div input {
+        width: 230px;
+    }
+    .contact-div textarea {
+        width: 215px;
+    }
+    .pricing {
+        margin-top: 650px;
+    }
+}
